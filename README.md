@@ -7,6 +7,9 @@
 </div>
 
 ## Introduction
+<div align=center>
+<img src="imgs/DFGOVD-samples.png" width="800"/>
+</div>
 This is the official implementation of the benchmark of Drone Fine-Grained Oriented Vehicle Detection(DFGOVD). In this paper, we construct a large-scale dataset of Drone Fine-Grained Oriented Vehicle Detection (DFGOVD), which contains 33,669 images collected in multiple complex scenarios and 816,239 instances annotated with 5 categories and 53 subcategories by oriented bounding boxes. To our knowledge, the proposed DFGOVD dataset is the first fine-grained drone vehicle detection dataset, which is valuable for supporting research on more practical drone vehicle detection algorithms. We give the results of 12 OOD methods and release the models on the DFGOVD. Based on this dataset, we expect more researchers to join the study of fine-grained oriented vehicle detection methods.
 
 ## Results and models
