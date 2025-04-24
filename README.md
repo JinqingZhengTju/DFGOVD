@@ -32,6 +32,6 @@ DFGOVD
 | ReDet                 | ReR-50-ReFPN | 72.87   | 67.15 | 56.19 | - |2 |  [redet_re50_refpn_1x_dfgovd_le90]()  |[model]()|[log]()|  
 | RoI Transformer       | R-50-FPN | 74.59   | 67.87 | 56.87 | - |2 |  [roi_trans_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()|  
 | SFRNet                | R-50-FPN | 75.35   | 69.01 | 58.11 | - |2 |  [sfr_oriented_rcnn_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()|  
-| DRNet                 | R-50-FPN | 77.02   | 68.75 | 58.12 | - |2 |  [drnet_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()| 
-| PCLDet                | ReR-50-ReFPN | 78.01   | 72.57 | 60.39 | - |2 |  [con_redet_re50_refpn_1x_dfgovd]()  |[model]()|[log]()| 
-| PETDet                | ReR-50-ReFPN | 79.56   | 74.47 | 62.23 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()| 
+| DRNet                 | R-50-FPN | 76.49   | 67.36 | 56.75 | - |2 |  [drnet_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()| 
+| PCLDet                | ReR-50-ReFPN | 76.50   | 70.68 | 58.70 | - |2 |  [con_redet_re50_refpn_1x_dfgovd]()  |[model]()|[log]()| 
+| PETDet                | ReR-50-ReFPN | 78.87   | 72.93 | 61.01 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90]()  |[model]()|[log]()| 
