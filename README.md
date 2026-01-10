@@ -41,7 +41,7 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 
 ## License
 
-The licensing and data access terms for this project are detailed and nuanced. **This section is a summary only.**
+This project uses **multiple licenses** for different components (code, sample data, full dataset). The terms are nuanced. **This section is a summary only.** For the complete and authoritative terms, see the **[LICENSE.md](./LICENSE.md)** file.
 
 ### Quick Summary
 *   **Source Code (`/code` directory):** Licensed under **[Apache License 2.0](./LICENSE_code.txt)** (allows commercial use).
@@ -49,6 +49,5 @@ The licensing and data access terms for this project are detailed and nuanced. *
 *   **Complete DFGOVD Dataset:** **Not yet included** in this repo. Planned for future release under CC BY-NC-SA 4.0. Currently available by request.
 
 ### ⚠️ Important Notes
-1.  The **definitive and legally-binding** document covering all components, terms, and future plans is the **[LICENSE.md](./LICENSE.md)** file. Please review it.
-2.  The licenses for code and data are **separate and independent**.
-3.  For inquiries or to request the complete dataset, please contact: jinqingzheng@tju.edu.cn.
+1.  The licenses for code and data are **separate and independent**.
+2.  For inquiries or to request the complete dataset, please contact: jinqingzheng@tju.edu.cn.
