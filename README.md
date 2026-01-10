@@ -42,7 +42,9 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 
 ## License
 
-This repository contains two distinct components that are governed by **different open-source licenses**. Please review the terms carefully before using any materials.
+This repository and its associated Data Paper introduce the **DFGOVD** dataset. Different components are governed by **different licenses and access terms**. Please review the following carefully.
+
+> **⚠️ Important**: For the complete and authoritative licensing information, please see the root **[LICENSE.md](./LICENSE.md)** file.
 
 ### 1. Source Code (`/code` Directory)
 The source code contained within the [`/code`](./code) directory is licensed under the **Apache License, Version 2.0**.
@@ -54,19 +56,34 @@ The source code contained within the [`/code`](./code) directory is licensed und
 
 For the complete legal terms, see: [**LICENSE_code.txt**](./LICENSE_code.txt).
 
-### 2. Dataset Documentation & Metadata (`/data` Directory)
-The documentation, descriptions, metadata, and any auxiliary files within the [`/data`](./data) directory (which describe and pertain to the dataset) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+### 2. The DFGOVD Dataset: Documentation, Samples & Full Data
+
+#### a) Dataset Documentation & Metadata (`/data` Directory)
+The documentation, descriptions, and metadata within the [`/data`](./data) directory that describe the `DFGOVD` dataset are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
 
 **Key Terms in Plain Language:**
-*   **You are free to**: share (copy, distribute) and adapt (remix, transform) this material, under the following terms:
-    1.  **Attribution (BY)**: You must give appropriate credit, provide a link to this license, and indicate if changes were made.
+*   **You are free to**: share and adapt this material under these terms:
+    1.  **Attribution (BY)**: You must give appropriate credit.
     2.  **NonCommercial (NC)**: **You may not use this material for commercial purposes.**
-    3.  **ShareAlike (SA)**: If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**.
+    3.  **ShareAlike (SA)**: Derivatives must be shared under the **same license**.
 *   **Core Restriction**: This license **explicitly prohibits any commercial use**.
 
-For the complete legal code, see: [**LICENSE_data.txt**](./LICENSE_data.txt).
+For the complete legal text, see: [**LICENSE_data.txt**](./LICENSE_data.txt).
+
+#### b) Sample Data
+The **sample data files** included in the `/data` directory are for demonstration and testing. Their use is **also governed by the CC BY-NC-SA 4.0 license** stated above.
+
+#### c) Complete DFGOVD Dataset (Available Upon Request)
+The **full `DFGOVD` dataset** is not publicly distributed in this repository.
+
+**Access Terms:**
+1.  **License**: Access is subject to a **custom Data Use Agreement (DUA)**, with terms at least as restrictive as CC BY-NC-SA 4.0 (non-commercial, requires attribution).
+2.  **How to Access**: Researchers must contact the authors (e.g., by opening a GitHub Issue) to request access and agree to the DUA.
+3.  **Mandatory Citation**: Use of the dataset **must** cite our associated Data Paper.
 
 ### ⚠️ Important Notices
-*   **License Separation**: Note that the licenses for the code and data are separate and independent. Using components from both requires compliance with both licenses.
-*   **Regarding Dataset Files**: The license in the `data` directory primarily covers the **descriptive documentation** of the dataset. The specific access and use terms for the actual dataset files themselves (if available) are detailed within that directory.
-*   **For Commercial Inquiries**: If you intend to use any part of this repository (especially the `data` component) for commercial purposes, you must **contact the authors** for explicit, written permission.
+*   **License Separation**: The licenses for the code and the dataset materials are separate. Using both requires compliance with both sets of terms.
+*   **Commercial Use**:
+    *   The **source code (Apache 2.0)** allows commercial use.
+    *   **All dataset materials (CC BY-NC-SA 4.0) PROHIBIT commercial use** without explicit permission.
+*   **Definitive Source**: This summary is for convenience. The root **[LICENSE.md](./LICENSE.md)** file is the definitive document for all licensing matters.
