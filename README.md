@@ -45,17 +45,17 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 This repository contains two distinct components that are governed by **different open-source licenses**. Please review the terms carefully before using any materials.
 
 ### 1. Source Code (`/code` Directory)
-The source code contained within the [`/code`](./code) directory is licensed under the **Apache License, Version 2.0**.
+The source code contained within the [`/Code`](./Code) directory is licensed under the **Apache License, Version 2.0**.
 
 **Key Permissions in Plain Language:**
 *   **You are free to**: use, copy, modify, and distribute this code, including for commercial purposes.
 *   **You must**: retain the original copyright notice and the full text of the license in any distributions.
 *   **Disclaimer**: The code is provided "AS IS", without warranty of any kind.
 
-For the complete legal terms, see: [**LICENSE_Code.txt**](./code/LICENSE_Code.txt).
+For the complete legal terms, see: [**LICENSE_Code.txt**](./Code/LICENSE_Code.txt).
 
 ### 2. Dataset Documentation & Metadata (`/data` Directory)
-The documentation, descriptions, metadata, and any auxiliary files within the [`/data`](./data) directory (which describe and pertain to the dataset) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+The documentation, descriptions, metadata, and any auxiliary files within the [`/Data`](./Data) directory (which describe and pertain to the dataset) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
 
 **Key Terms in Plain Language:**
 *   **You are free to**: share (copy, distribute) and adapt (remix, transform) this material, under the following terms:
@@ -64,7 +64,7 @@ The documentation, descriptions, metadata, and any auxiliary files within the [`
     3.  **ShareAlike (SA)**: If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**.
 *   **Core Restriction**: This license **explicitly prohibits any commercial use**.
 
-For the complete legal code, see: [**LICENSE_Data.txt**](./data/LICENSE_Data.txt).
+For the complete legal code, see: [**LICENSE_Data.txt**](./Data/LICENSE_Data.txt).
 
 ### ⚠️ Important Notices
 *   **License Separation**: Note that the licenses for the code and data are separate and independent. Using components from both requires compliance with both licenses.
