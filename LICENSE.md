@@ -12,7 +12,7 @@ The source code in the [`/code`](./code) directory is licensed under the **Apach
 *   **You must**: retain the original copyright and license notices.
 *   **Disclaimer**: The code is provided “AS IS”, without any warranties.
 
-**Full Legal Text:** [LICENSE_code.txt](./LICENSE_code.txt)
+**Full Legal Text:** [LICENSE_code.txt](./LICENSE_code.txt)  
 **Official Link:** https://www.apache.org/licenses/LICENSE-2.0
 
 ## 2. Dataset Documentation, Metadata & Sample Data
@@ -27,7 +27,7 @@ All files currently in the [`/data`](./data) directory, including documentation,
     2.  **ShareAlike**: If you remix or transform the material, you must distribute your contributions under the **same license**.
 *   **Core Restriction**: **Commercial use is strictly prohibited.**
 
-**Full Legal Text:** [LICENSE_data.txt](./LICENSE_data.txt)
+**Full Legal Text:** [LICENSE_data.txt](./LICENSE_data.txt)  
 **Human-Readable Summary:** https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## 3. The Complete DFGOVD Dataset (Future Release)
