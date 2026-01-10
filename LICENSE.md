@@ -43,8 +43,8 @@ All documentation, descriptive text, and metadata files within the **`/data`** d
 | **Source Code** | `/code` | All program source files | Apache-2.0 |
 | **Dataset Documentation** | `/data` | Documentation, metadata, description files | CC BY-NC-SA 4.0 |
 
-*   To use the **source code**, comply with the Apache-2.0 license (`./LICENSE_code.txt`).
-*   To use the **dataset documentation**, comply with the CC BY-NC-SA 4.0 license (`./LICENSE_data.txt`).
+*   To use the **source code**, comply with the Apache-2.0 license (`./LICENSE_code.txt`)[LICENSE_code.txt](./LICENSE_code.txt).
+*   To use the **dataset documentation**, comply with the CC BY-NC-SA 4.0 license (`./LICENSE_data.txt`)[LICENSE_data.txt](./LICENSE_data.txt).
 
 ---
 
