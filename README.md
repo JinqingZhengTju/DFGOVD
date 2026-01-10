@@ -41,7 +41,7 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 
 ## License
 
-This repository contains materials from the DFGOVD project governed by **different licenses and release stages**.
+This repository contains materials from the DFGOVD project governed by **different licenses and release stages**. For the complete, definitive, and legally-binding terms, please refer to the root **[LICENSE.md](./LICENSE.md)** file.
 
 ### 1. Source Code (`/code` Directory)
 The source code contained within the [`/code`](./code) directory is licensed under the **Apache License, Version 2.0**.
