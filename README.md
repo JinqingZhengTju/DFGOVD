@@ -45,7 +45,7 @@ The licensing and data access terms for this project are detailed and nuanced. *
 
 ### Quick Summary
 *   **Source Code (`/code` directory):** Licensed under **Apache License 2.0** (allows commercial use).
-*   **Docs & Sample Data (`/data` directory):** Licensed under **CC BY-NC-SA 4.0** (non-commercial only).
+*   **Sample Data (`/data` directory):** Licensed under **CC BY-NC-SA 4.0** (non-commercial only).
 *   **Complete DFGOVD Dataset:** **Not yet included** in this repo. Planned for future release under **CC BY-NC-SA 4.0**. Currently available by request.
 
 ### ⚠️ Important Notes
