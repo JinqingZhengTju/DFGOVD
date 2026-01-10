@@ -8,7 +8,7 @@
 
 ## Introduction
 <div align=center>
-<img src="Data/Images/DFGOVD-samples.png" width="800"/>
+<img src="docs/DFGOVD-samples.png" width="800"/>
 </div>
 This is the official implementation of the benchmark of Drone Fine-Grained Oriented Vehicle Detection (DFGOVD). In this paper, we construct DFGOVD, the first large-scale and comprehensive FGOVD dataset for drone-based scenes. The dataset comprises 33,669 images and 816,239 vehicle instances spanning 53 categories and captures subtle distinctions in vehicle appearance, size, and functionality. We benchmark state-of-the-art oriented object detection methods on the DFGOVD dataset, exposing its inherent complexity and challenge.
 
@@ -52,7 +52,7 @@ The source code contained within the [`/code`](./code) directory is licensed und
 *   **You must**: retain the original copyright notice and the full text of the license in any distributions.
 *   **Disclaimer**: The code is provided "AS IS", without warranty of any kind.
 
-For the complete legal terms, see: [**LICENSE_Code.txt**](./code/LICENSE_Code.txt).
+For the complete legal terms, see: [**LICENSE_Code.txt**](./LICENSE_Code.txt).
 
 ### 2. Dataset Documentation & Metadata (`/data` Directory)
 The documentation, descriptions, metadata, and any auxiliary files within the [`/data`](./data) directory (which describe and pertain to the dataset) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
@@ -64,7 +64,7 @@ The documentation, descriptions, metadata, and any auxiliary files within the [`
     3.  **ShareAlike (SA)**: If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**.
 *   **Core Restriction**: This license **explicitly prohibits any commercial use**.
 
-For the complete legal code, see: [**LICENSE_Data.txt**](./data/LICENSE_Data.txt).
+For the complete legal code, see: [**LICENSE_Data.txt**](./LICENSE_Data.txt).
 
 ### ⚠️ Important Notices
 *   **License Separation**: Note that the licenses for the code and data are separate and independent. Using components from both requires compliance with both licenses.
