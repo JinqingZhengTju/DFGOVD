@@ -41,40 +41,16 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 
 ## License
 
-This repository contains materials from the DFGOVD project governed by **different licenses and release stages**. For the complete, definitive, and legally-binding terms, please refer to the root **[LICENSE.md](./LICENSE.md)** file.
+The licensing and data access terms for this project are detailed and nuanced. **This section is a summary only.**
 
-### 1. Source Code (`/code` Directory)
-The source code contained within the [`/code`](./code) directory is licensed under the **Apache License, Version 2.0**.
+### Quick Summary
+*   **Source Code (`/code` directory):** Licensed under **Apache License 2.0** (allows commercial use).
+*   **Docs & Sample Data (`/data` directory):** Licensed under **CC BY-NC-SA 4.0** (non-commercial only).
+*   **Complete DFGOVD Dataset:** **Not yet included** in this repo. Planned for future release under **CC BY-NC-SA 4.0**. Currently available by request.
 
-**SPDX-License-Identifier: Apache-2.0**
+### ⚠️ Important Notes
+1.  The **definitive and legally-binding** document for all licensing matters is the **[LICENSE.md](./LICENSE.md)** file in the root directory. Please review it.
+2.  The licenses for code and data are **separate and independent**.
+3.  For inquiries or to request the complete dataset, please contact: jinqingzheng@tju.edu.cn.
 
-**Key Permissions in Plain Language:**
-*   **You are free to**: use, copy, modify, and distribute this code, including for commercial purposes.
-*   **You must**: retain the original copyright notice and the full text of the license in any distributions.
-*   **Disclaimer**: The code is provided "AS IS", without warranty of any kind.
-
-**Full Legal Text:** [LICENSE_code.txt](./LICENSE_code.txt)  
-**Official Link:** https://www.apache.org/licenses/LICENSE-2.0
-
-### 2. Dataset Documentation, Metadata & Samples (`/data` Directory)
-All files currently within the [`/data`](./data) directory, including documentation, descriptions, metadata, and the provided **sample data**, are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
-
-**SPDX-License-Identifier: CC-BY-NC-SA-4.0**
-
-**Key Terms in Plain Language:**
-*   **You are free to**: share and adapt this material under these terms:
-    1.  **Attribution (BY)**: You must give appropriate credit.
-    2.  **NonCommercial (NC)**: **You may not use this material for commercial purposes.**
-    3.  **ShareAlike (SA)**: If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**.
-*   **Core Restriction**: This license **explicitly prohibits any commercial use**.
-
-**Full Legal Text:** [LICENSE_data.txt](./LICENSE_data.txt)  
-**Human-Readable Summary:** https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-### 3. Complete DFGOVD Dataset (Future Release)
-The complete dataset is **not currently publicly available** in this repository. **Upon its future public release here,** it is planned to be licensed under the same **CC BY-NC-SA 4.0** terms as the sample data (Non-Commercial, Attribution, ShareAlike). For access inquiries before the public release, please contact the authors via email.
-
-### ⚠️ Important Notices
-*   **License Separation**: The licenses for code and data materials are completely separate and independent.
-*   **Commercial Use**: The **source code (Apache 2.0) allows commercial use**. All **currently available dataset materials (CC BY-NC-SA 4.0) PROHIBIT commercial use**. The planned license for the future complete dataset will also prohibit commercial use.
-*   **Definitive Source & Contact**: The [LICENSE.md](./LICENSE.md) file in the root directory is the definitive document for all licensing matters and current release status. For data access requests, please email: jinqingzheng@tju.edu.cn.
+**For the full terms, conditions, and SPDX identifiers, see: [LICENSE.md](./LICENSE.md)**
