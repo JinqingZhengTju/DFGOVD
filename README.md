@@ -35,11 +35,10 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 | PCLDet                | ReR-50-ReFPN |	76.50 	|	70.68 	|	49.68 	|	58.70 | - |2 |  [con_redet_re50_refpn_1x_dfgovd]()  |
 | PETDet                | ReR-50-ReFPN |	78.87 	|	72.93 	|	52.51 	|	61.01 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90]()  |
 
-
-## Data
-
-
 ## Code
+
+## Data 
+
 
 ## License
 
