@@ -51,3 +51,15 @@ This project uses **multiple licenses** for different components (code, sample d
 ### ⚠️ Important Notes
 1.  The licenses for code and data are **separate and independent**.
 2.  For inquiries or to request the complete dataset, please contact: jinqingzheng@tju.edu.cn.
+
+## Ethical Considerations and Disclaimer
+
+The DFGOVD dataset was collected from real-world scenarios. Researchers and users of this dataset should be aware of and comply with the following:
+
+1.  **Privacy:** The dataset may contain information that could be considered sensitive. All data has been processed to remove **personally identifiable information (PII)** to the best of our ability. However, we **cannot guarantee** that all privacy-relevant information has been entirely eliminated.
+2.  **Intended Use:** This dataset is provided **strictly for non-commercial academic research purposes** in fields such as computer vision and remote sensing. Any use of the dataset for surveillance, identification, or any other purposes that may infringe upon individual privacy or rights is **strictly prohibited**.
+3.  **Disclaimer of Liability:** The authors and affiliated institutions **shall not be held liable** for any claims, damages, or other liabilities arising from the use or misuse of this dataset, including but not limited to any privacy violations.
+4.  **User Responsibility:** By using this dataset, you agree to assume full responsibility for your use of the data and to comply with all applicable local, national, and international laws and regulations regarding data privacy and protection.
+
+## Contact
+If you have any problems or feedback on our work, please contact: jinqingzheng@tju.edu.cn.
