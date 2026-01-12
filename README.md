@@ -36,7 +36,7 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 | PETDet                | ReR-50-ReFPN |	78.87 	|	72.93 	|	52.51 	|	61.01 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90](code/mmrotate/configs/dfgovd/petdet_r50_fpn_1x_dfgovd_le90.py)  |
 
 ## Code
-This repository contains the train and evaluation code used to benchmark baseline methods on the DFGOVD dataset, producing fair benchmark results. It is built upon open-source frameworks, including [MMRotate](https://github.com/open-mmlab/mmrotate/tree/main) (v0.3.4), [MMDetection](https://github.com/open-mmlab/mmdetection/tree/2.x) (v2.28.2), and [MMCV](https://github.com/open-mmlab/mmcv/tree/1.x) (v1.7.2). 
+This repository contains the train and evaluation code used to benchmark baseline methods on the DFGOVD dataset, producing fair benchmark results. It is built upon open-source frameworks, including [MMRotate](https://github.com/open-mmlab/mmrotate/tree/main) (v0.3.4), [MMDetection](https://github.com/open-mmlab/mmdetection/tree/2.x) (v2.28.2), and [MMCV](https://github.com/open-mmlab/mmcv/tree/1.x) (v1.7.2). The code is stored in the [`/code`](./code) directory. For installation and usage instructions, please refer to [README_code.md](./code/README_code.md).
 ## Data 
 
 ## License
