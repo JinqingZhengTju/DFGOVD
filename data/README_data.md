@@ -46,7 +46,7 @@ x1 y1 x2 y2 x3 y3 x4 y4 category difficulty
 ### 1. Using the Full Dataset
 After obtaining access to the complete dataset:
 
-- **Preprocessing:** Use the provided scripts in [/code/tools/dfgovd](./code/tools/dfgovd) for data conversion
+- **Preprocessing:** Use the provided scripts in [/code/tools/dfgovd](../code/tools/dfgovd) for data conversion
 
 ### 2. Integration with MMRotate
 The dataset is designed to work seamlessly with the MMRotate framework. Example configuration:
@@ -56,8 +56,8 @@ data_root = 'data/split_ss_DFGOVD/'
 ```
 
 ## Data Access and Licensing
-*   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. This sample data licensed under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)**.
-*   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)** and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
+*   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./sample_data) directory to demonstrate the format and structure of our dataset. This sample data licensed under **[CC BY-NC-SA 4.0](../LICENSE_data.txt)**.
+*   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release under **[CC BY-NC-SA 4.0](../LICENSE_data.txt)** and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
 
 ## Ethical Considerations and Disclaimer
 
