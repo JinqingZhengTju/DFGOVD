@@ -36,7 +36,7 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 | PETDet                | ReR-50-ReFPN |	78.87 	|	72.93 	|	52.51 	|	61.01 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90](code/mmrotate/configs/dfgovd/petdet_r50_fpn_1x_dfgovd_le90.py)  |
 
 ## Code
-
+The code in this repository is used to evaluate the performance of baseline methods on the DFGOVD dataset, yielding fair benchmark results.
 ## Data 
 
 ## License
