@@ -46,10 +46,10 @@ x1 y1 x2 y2 x3 y3 x4 y4 category difficulty
 ### 1. Using the Full Dataset
 After obtaining access to the complete dataset:
 
-- **Preprocessing:** Use the provided scripts in [/code/tools/dfgovd](../code/tools/dfgovd) for data conversion
+- **Preprocessing:** Use the provided scripts in [/code/mmrotate/tools/data/dfgovd](../code/mmrotate/tools/data/dfgovd) for data conversion
 
 ### 2. Integration with MMRotate
-The dataset is designed to work seamlessly with the MMRotate framework. Example configuration:
+The dataset is designed to work seamlessly with the MMRotate framework. Example configuration (in [/code/mmrotate/configs/_base_/datasets](../code/mmrotate/configs/_base_/datasets/dfgovd.py)):
 ```
 dataset_type = 'DFGOVDDataset'
 data_root = 'data/split_ss_DFGOVD/'
