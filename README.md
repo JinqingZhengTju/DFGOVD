@@ -42,7 +42,7 @@ The DFGOVD dataset comprises 33,669 images, annotated with 816,239 vehicle insta
 ### Data Access
 *   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. This sample data licensed under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)**.
 *   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)** and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
-*   
+    
 ## License
 This project uses **multiple licenses** for different components (code, sample data, full dataset). The terms are nuanced. **This section is a summary only.** For the complete and authoritative terms, see the **[LICENSE.md](./LICENSE.md)** file.
 
