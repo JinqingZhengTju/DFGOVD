@@ -8,3 +8,19 @@ The DFGOVD (Drone Fine-Grained Oriented Vehicle Detection) dataset is the first 
 - **Categories:** 53 fine-grained vehicle categories
 - **Annotation Format:** Oriented Bounding Boxes (OBB)
 - **Primary Task:** Fine-Graided Oriented Vehicle Detection (FGOVD)
+
+# Directory Structure
+The dataset follows the structure below. Upon request, you will receive the data organized as follows:
+data/
+├── sample_data/          # Publicly available sample subset for preview
+│   ├── images/           # Sample images
+│   └── labelTxt/         # Corresponding annotations
+├── train/                # Training set (available upon request)
+│   ├── images/           # Training images
+│   └── labelTxt/         # Training annotations
+├── val/                  # Validation set (available upon request)
+│   ├── images/
+│   └── labelTxt/
+└── test/                 # Test set (available upon request)
+    ├── images/
+    └── labelTxt/
