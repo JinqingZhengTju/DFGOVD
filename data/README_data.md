@@ -26,3 +26,17 @@ data/
     ├── images/
     └── labelTxt/
 ```
+# Data Splits
+The DFGOVD dataset is officially partitioned into training, validation, and test sets to facilitate standardized benchmarking, model development, and fair evaluation. The detailed statistics for each split are as follows: 
+| Split | Number of Images | Number of Instances | Primary Purpose |
+| :--- | :---: | :---: | :--- |
+| **Training Set**   | 20,201 | 491,188 | Model training and parameter learning. |
+| **Validation Set** | 3,367 | 80,720 | Hyperparameter tuning and model validation during training. |
+| **Test Set**       | 10,101 | 244,331 | **Final evaluation** and reporting of benchmark results. |
+| **Total**          | **33,669** | **816,239** | The complete DFGOVD dataset. |
+
+**Usage Note:** To ensure fair comparison and reproducibility, we require that researchers report performance metrics **only on the official test set**. The validation set should be used for model selection and ablation studies. Please do not train models on the combined training and validation sets for final test evaluation.
+
+
+
+
