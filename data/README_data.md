@@ -11,6 +11,7 @@ The DFGOVD (Drone Fine-Grained Oriented Vehicle Detection) dataset is the first 
 
 # Directory Structure
 The dataset follows the structure below. Upon request, you will receive the data organized as follows:
+```bash
 data/
 ├── sample_data/          # Publicly available sample subset for preview
 │   ├── images/           # Sample images
@@ -24,3 +25,4 @@ data/
 └── test/                 # Test set (available upon request)
     ├── images/
     └── labelTxt/
+```
