@@ -46,7 +46,7 @@ The complete dataset is available on a case-by-case basis for verification and a
 | :--- | :--- | :--- |
 | **Source Code** | Available (`/code`) | Apache License 2.0 |
 | **Sample Data** | Available (`/data`) | CC BY-NC-SA 4.0 |
-| **Complete Dataset** | **Not yet included** (Future Release) | **Planned:** CC BY-NC-SA 4.0 |
+| **Complete DFGOVD Dataset** | **Not yet included** (Future Release) | **Planned:** CC BY-NC-SA 4.0 |
 
 ---
 
