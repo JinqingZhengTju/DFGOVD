@@ -110,14 +110,86 @@ Use the provided scripts in [/code/mmrotate/tools/data/dfgovd](../code/mmrotate/
 
 ### 3. Configuration
 The dataset paths are pre-configured in the base configuration file [`/code/mmrotate/configs/_base_/datasets/dfgovd.py`](../code/mmrotate/configs/_base_/datasets/dfgovd.py).
+
 **If your dataset is located elsewhere**, update the `data_root` variable in the relevant model configuration file before training:
 ```python
 # Modify this line to your dataset path
 data_root = '/your/custom/path/to/split_ss_DFGOVD/'
 ```
 
-### Next Steps
-After completing the data preparation, you can proceed to the [Usage](#usage) section to begin training and evaluation.
+## Usage
+
+This section provides instructions for training and evaluating with the provided baseline models on the DFGOVD dataset.
+
+### 1. Training a Model
+
+We provide configuration files for some state-of-the-art baseline models in the [`configs/dfgovd`](../code/mmrotate/configs/dfgovd) directory. To train a model, use the `tools/train.py` script.
+
+#### Single GPU Training
+```bash
+python tools/train.py ${CONFIG_FILE} [optional arguments]
+```
+
+**Example:** Train Rotated Faster R-CNN on a single GPU:
+```bash
+python tools/train.py configs/dfgovd/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90.py
+```
+
+#### Multi-GPU Training
+We support distributed training with multiple GPUs using `torch.distributed.launch`.
+```bash
+bash tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM} [optional arguments]
+```
+
+**Example:** Train Rotated Faster R-CNN on 8 GPUs:
+```bash
+bash tools/dist_train.sh configs/dfgovd/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90.py 8
+```
+
+**Optional Arguments:**
+- `--work-dir ${WORK_DIR}`: Override the working directory (where logs and checkpoints are saved).
+- `--resume-from ${CHECKPOINT_FILE}`: Resume training from a checkpoint.
+- `--no-validate`: Do not evaluate the checkpoint during training (not recommended).
+
+### 2. Evaluating a Model
+
+To evaluate a trained model on the validation or test set, use the `tools/test.py` script.
+
+#### Single GPU Evaluation
+```bash
+python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} [--eval ${EVAL_METRICS}] [--out ${RESULT_FILE}]
+```
+
+**Example:** Evaluate a Rotated Faster R-CNN checkpoint and compute mAP:
+```bash
+python tools/test.py configs/dfgovd/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90.py work_dirs/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90/epoch_12.pth --eval mAP
+```
+
+#### Multi-GPU Evaluation
+```bash
+bash tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM} [--eval ${EVAL_METRICS}] [--out ${RESULT_FILE}]
+```
+
+**Example:** Evaluate using 8 GPUs:
+```bash
+bash tools/dist_test.sh configs/dfgovd/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90.py work_dirs/rotated_faster_rcnn_r50_fpn_1x_dfgovd_le90/epoch_12.pth 8 --eval mAP
+```
+
+**Important:** For fair comparison, please evaluate on the **test set** only once and report the final result. The validation set should be used for development and model selection.
+
+
+### 3. Using Custom Configuration
+
+You can modify the provided configuration files or create new ones to experiment with different settings. The configuration system is based on MMDetection and MMRotate. Please refer to their documentation for details.
+
+To use a custom configuration file, simply pass its path to the training or evaluation scripts.
+
+### 4. Notes on Reproducibility
+
+- We have fixed random seeds in the provided configuration files to ensure reproducibility. However, note that complete reproducibility may be affected by factors such as the CUDA version, GPU type, and environment.
+- The performance reported in the Model Zoo (see next section) is obtained with the default configuration and specific hardware. Slight variations are expected.
+
+
 
 
 
