@@ -26,18 +26,62 @@ Before installing the codebase, ensure your system meets the following requireme
 
 We recommend using a Python virtual environment (e.g., Conda) to manage dependencies.
 
-**1. Create and activate a Conda environment:**
+**1. Clone this repository and navigate to the code directory:**
+```bash
+git clone https://github.com/JinqingZhengTju/DFGOVD.git
+cd DFGOVD/code
+```
+
+**2. Create and activate a Conda environment:**
 ```bash
 conda create -n dfgovd python=3.8 -y
 conda activate dfgovd
 ```
 
-**2. Install PyTorch and torchvision:**
+**3. Install PyTorch and torchvision:**
 Please refer to the [official PyTorch website](https://pytorch.org/get-started/previous-versions/) for the command that matches your CUDA version.
 ```bash
 # Example for CUDA 11.3
 conda install pytorch==1.10.0 torchvision==0.11.0 cudatoolkit=11.3 -c pytorch
 ```
+
+**4. Install MMCV from source:**
+We use the included MMCV (v1.7.2) source code.
+```bash
+# Navigate to the mmcv directory and install
+cd mmcv  # This is inside the /code directory
+pip install -r requirements/optional.txt
+MMCV_WITH_OPS=1 pip install -e .  # This will compile with CUDA ops
+cd ..
+```
+
+**5. Install MMDetection from source:**
+We use the included MMDetection (v2.28.2) source code.
+```bash
+# Navigate to the mmdetection directory and install
+cd mmdetection
+pip install -e .
+cd ..
+```
+
+**6. Install MMRotate from source:**
+We use the included MMRotate (v0.3.4) source code.
+```bash
+# Navigate to the mmrotate directory and install
+cd mmrotate
+pip install -e .
+cd ..
+```
+
+### Verification
+You can verify the installation by running a simple Python check:
+```bash
+python -c "import mmrotate, mmdet, mmcv; print('All imports successful.')"
+```
+
+**Troubleshooting Tip:** 
+- If you encounter any compilation errors when installing MMCV, please ensure that your GCC version meets the requirement and that the CUDA path is correctly set.
+- For any version mismatch errors, please double-check that you have installed the correct versions as specified above.
 
 
 
