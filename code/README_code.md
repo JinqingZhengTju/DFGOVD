@@ -109,7 +109,7 @@ A sample dataset is provided in `../data/sample_data` for format verification.
 Use the provided scripts in [/code/mmrotate/tools/data/dfgovd](../code/mmrotate/tools/data/dfgovd) for data conversion after placing your data in the correct location.
 
 ### 3. Configuration
-The dataset paths are pre-configured in the base configuration file `configs/_base_/datasets/dfgovd.py`.
+The dataset paths are pre-configured in the base configuration file [`/code/mmrotate/configs/_base_/datasets/dfgovd.py`](../code/mmrotate/configs/_base_/datasets/dfgovd.py).
 **If your dataset is located elsewhere**, update the `data_root` variable in the relevant model configuration file before training:
 ```python
 # Modify this line to your dataset path
