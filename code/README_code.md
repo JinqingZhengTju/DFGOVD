@@ -219,3 +219,22 @@ The following table lists the performance of baseline methods evaluated on the D
 | PETDet                | ReR-50-ReFPN |	78.87 	|	72.93 	|	52.51 	|	61.01 | - |2 |  [petdet_r50_fpn_1x_dfgovd_le90](code/mmrotate/configs/dfgovd/petdet_r50_fpn_1x_dfgovd_le90.py)  |
 
 **Evaluation Metric:** We report the standard mean Average Precision (mAP) for oriented object detection, including AP50, AP75, AP85, and AP50:95. For a detailed definition, please refer to the MMRotate documentation.
+
+## License
+
+This codebase is released under the **Apache License 2.0**. This is a permissive license that allows for both academic and commercial use, with requirements for attribution and state changes.
+
+**Key Points of the License:**
+*   ✅ **Permits:** Commercial use, modification, distribution, patent use, and private use.
+*   ✅ **Requires:** Attribution and inclusion of the original license/copyright notice.
+*   ✅ **Provides:** An express grant of patent rights from contributors.
+*   ❌ **Does Not:** Hold the original authors liable for damages, or require that modified versions be released under the same license (copyleft).
+
+For the full legal text, please see the [LICENSE_code.md](../LICENSE_code.md) file.
+
+The DFGOVD **dataset** itself is shared under a different license (CC BY-NC-SA 4.0). For details, see the [LICENCE_data.md](../LICENCE_data.md) file.
+
+## Contact
+If you have any problems or feedback on our work, please contact: jinqingzheng@tju.edu.cn.
+
+We welcome constructive feedback and contributions to improve this benchmark for the research community.
