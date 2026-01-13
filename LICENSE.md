@@ -51,4 +51,4 @@ The complete dataset is available on a case-by-case basis for verification and a
 ---
 
 ## Contact
-For questions about licensing or pre-release dataset access, please contact: jinqingzheng.tju.edu.cn
+For questions about licensing or pre-release dataset access, please contact: jinqingzheng@tju.edu.cn.
