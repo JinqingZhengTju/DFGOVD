@@ -15,8 +15,8 @@ The source code in the [`/code`](./code) directory is licensed under the **Apach
 **Full Legal Text:** [LICENSE_code.txt](./LICENSE_code.txt)  
 **Official Link:** https://www.apache.org/licenses/LICENSE-2.0
 
-## 2. Dataset Documentation, Metadata & Sample Data
-All files currently in the [`/data`](./data) directory, including documentation, metadata, and the provided **sample data**, are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+## 2. Sample Data
+The sample data provided in the [`/data/sample_data`](./data/sample_data) directory (including images and annotations) is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
 
 **SPDX-License-Identifier: CC-BY-NC-SA-4.0**
 
