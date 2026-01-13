@@ -45,7 +45,7 @@ The complete dataset is available on a case-by-case basis for verification and a
 | Component | Current Status in Repo | License / Terms |
 | :--- | :--- | :--- |
 | **Source Code** | Available (`/code`) | Apache License 2.0 |
-| **Docs, Metadata & Samples** | Available (`/data`) | CC BY-NC-SA 4.0 |
+| **Sample Data** | Available (`/data`) | CC BY-NC-SA 4.0 |
 | **Complete Dataset** | **Not yet included** (Future Release) | **Planned:** CC BY-NC-SA 4.0 |
 
 ---
