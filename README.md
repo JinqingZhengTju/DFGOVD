@@ -44,7 +44,7 @@ This repository provides the training and evaluation code for benchmarking basel
 The DFGOVD dataset comprises 33,669 images, annotated with 816,239 vehicle instances using oriented bounding boxes covering 53 categories. For details on dataset annotation, splits, and usage instructions, please refer to [README_data.md](./data/README_data.md). 
 ### Data Access
 *   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. 
-*   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)** and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
+*   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
     
 ## License
 This project uses **multiple licenses** for different components (code, sample data, full dataset). The terms are nuanced. **This section is a summary only.** For the complete and authoritative terms, see the **[LICENSE.md](./LICENSE.md)** file.
@@ -52,7 +52,7 @@ This project uses **multiple licenses** for different components (code, sample d
 ### Quick Summary
 *   **Source Code (`/code` directory):** Licensed under **[Apache License 2.0](./LICENSE_code.txt)** (allows commercial use).
 *   **Sample Data (`/data` directory):** Licensed under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)** (non-commercial only).
-*   **Complete DFGOVD Dataset:** **Not yet included** in this repo. Planned for future release under CC BY-NC-SA 4.0. Currently available by request.
+*   **Complete DFGOVD Dataset:** **Not yet included** in this repo. Planned for future release under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)**. Currently available by request. 
 
 ### ⚠️ Important Notes
 1.  The licenses for code and data are **separate and independent**.
