@@ -37,7 +37,7 @@ The **complete DFGOVD dataset is not currently included** in this repository. It
 Upon its public release within this repository, the complete dataset will be licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**, with the same key terms (Attribution, NonCommercial, ShareAlike) as described in Section 2.
 
 **Current Access (Prior to Public Release):**
-Prior to the public release, access to the full dataset for verification or collaborative research may be granted on a case-by-case basis. Please contact the authors via email for inquiries.
+The complete dataset is available on a case-by-case basis for verification and academic research prior to its public release. To request access, please contact: jinqingzheng@tju.edu.cn.
 
 ---
 
@@ -51,4 +51,4 @@ Prior to the public release, access to the full dataset for verification or coll
 ---
 
 ## Contact
-For questions about licensing or pre-release dataset access, please contact the corresponding author at: jinqingzheng.tju.edu.cn
+For questions about licensing or pre-release dataset access, please contact: jinqingzheng.tju.edu.cn
