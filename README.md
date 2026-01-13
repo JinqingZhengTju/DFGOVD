@@ -43,7 +43,7 @@ This repository provides the training and evaluation code for benchmarking basel
 ## Data 
 The DFGOVD dataset comprises 33,669 images, annotated with 816,239 vehicle instances using oriented bounding boxes covering 53 categories. For details on dataset annotation, splits, and usage instructions, please refer to [README_data.md](./data/README_data.md). 
 ### Data Access
-*   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. This sample data licensed under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)**.
+*   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. 
 *   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release under **[CC BY-NC-SA 4.0](./LICENSE_data.txt)** and is currently available only upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
     
 ## License
