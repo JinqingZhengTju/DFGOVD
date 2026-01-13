@@ -235,6 +235,6 @@ For the full legal text, please see the [LICENSE_code.md](../LICENSE_code.md) fi
 The DFGOVD **dataset** itself is shared under a different license (CC BY-NC-SA 4.0). For details, see the [LICENCE_data.md](../LICENCE_data.md) file.
 
 ## Contact
-If you have any problems or feedback on our work, please contact: jinqingzheng@tju.edu.cn.
+For any questions regarding the codebase, please contact: jinqingzheng@tju.edu.cn.
 
 We welcome constructive feedback and contributions to improve this benchmark for the research community.
