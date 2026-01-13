@@ -80,8 +80,46 @@ python -c "import mmrotate, mmdet, mmcv; print('All imports successful.')"
 ```
 
 **Troubleshooting Tip:** 
-- If you encounter any compilation errors when installing MMCV, please ensure that your GCC version meets the requirement and that the CUDA path is correctly set.
+- If you encounter any compilation errors when installing MMCV, please ensure that your GCC version meets the requirements and that the CUDA path is correctly set.
 - For any version mismatch errors, please double-check that you have installed the correct versions as specified above.
+
+## Data Preparation
+
+The DFGOVD dataset must be properly organized for the training and evaluation scripts to function correctly.
+
+### 1. Directory Structure
+Please organize your dataset according to the structure defined in the main dataset documentation. **For comprehensive details on data organization, annotation format, and splits, please refer to the dedicated [README_data.md](../data/README_data.md) file.**
+
+In brief, the expected structure within the project root is:
+```
+data/DFGOVD/
+├── train/
+│   ├── images/
+│   └── labelTxt/
+├── val/
+│   ├── images/
+│   └── labelTxt/
+└── test/
+    ├── images/
+    └── labelTxt/
+```
+A sample dataset is provided in `../data/sample_data` for format verification.
+
+### 2. Quick Setup Script
+Use the provided scripts in [/code/mmrotate/tools/data/dfgovd](../code/mmrotate/tools/data/dfgovd) for data conversion after placing your data in the correct location.
+
+### 3. Configuration
+The dataset paths are pre-configured in the base configuration file `configs/_base_/datasets/dfgovd.py`.
+**If your dataset is located elsewhere**, update the `data_root` variable in the relevant model configuration file before training:
+```python
+# Modify this line to your dataset path
+data_root = '/your/custom/path/to/split_ss_DFGOVD/'
+```
+
+### Next Steps
+After completing the data preparation, you can proceed to the [Usage](#usage) section to begin training and evaluation.
+
+
 
 
 
