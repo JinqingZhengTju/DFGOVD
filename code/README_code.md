@@ -232,7 +232,7 @@ This codebase is released under the **Apache License 2.0**. This is a permissive
 
 For the full legal text, please see the [LICENSE_code.txt](../LICENSE_code.txt) file.
 
-The DFGOVD **dataset** itself is shared under a different license (CC BY-NC-SA 4.0). For details, see the [LICENCE_data.txt](../LICENCE_data.txt) file.
+The DFGOVD **dataset** itself is shared under a different license (CC BY-NC-SA 4.0). For details, see the [LICENSE_data.txt](../LICENSE_data.txt) file.
 
 ## Contact
 For any questions regarding the codebase, please contact: jinqingzheng@tju.edu.cn.
