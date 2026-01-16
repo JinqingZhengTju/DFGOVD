@@ -15,7 +15,7 @@ The code is located in the [`/code`](../code) directory and is licensed under th
 ### Prerequisites
 Before installing the codebase, ensure your system meets the following requirements:
 
-- **Operating System:** Linux (recommended) or macOS. Windows is not officially supported but may work via WSL.
+- **Operating System:** Linux (recommended) or macOS. Windows is not officially supported, but it may work via WSL.
 - **Python:** 3.7 or higher (3.8 is recommended).
 - **PyTorch:** 1.6 or higher.
 - **CUDA:** Required for GPU acceleration. We recommend CUDA 10.2 or higher, compatible with your PyTorch version.
