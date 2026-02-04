@@ -47,7 +47,25 @@ The DFGOVD dataset comprises 33,669 images, annotated with 816,239 vehicle insta
 ### Data Access
 *   **Sample Data:** We have released sample data located in the [`/data/sample_data`](./data/sample_data) directory to demonstrate the format and structure of our dataset. 
 *   **Complete DFGOVD Dataset:** The complete DFGOVD dataset is not yet publicly released. It is planned for future release and is currently available upon request. To apply for access (non-commercial only), please contact: jinqingzheng@tju.edu.cn.
-    
+
+## Citation
+If you use this work (including the DFGOVD dataset or codebase) in your research, please cite our paper:
+```bibtex
+@ARTICLE{11371303,
+  author={Zheng, Jinqing and Feng, Zhiyong and Xing, Meng and Su, Yong and Peng, Weilong and Zhang, Yiming},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Drone-based Vehicle Detection;Fine-Grained Object Recognition;Oriented Object Detection},
+  doi={10.1109/TGRS.2026.3660958}
+}
+```
+
+**Note:** As the paper is currently in Early Access, the final volume, issue, and page numbers will be updated upon formal publication. The DOI [10.1109/TGRS.2026.3660958](https://doi.org/10.1109/TGRS.2026.3660958) is the permanent link to the paper.
+
 ## License
 This project uses **multiple licenses** for different components (code, sample data, full dataset). The terms are nuanced. **This section is a summary only.** For the complete and authoritative terms, see the **[LICENSE.md](./LICENSE.md)** file.
 
