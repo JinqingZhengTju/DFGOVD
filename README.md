@@ -14,6 +14,8 @@ This is the official implementation of the benchmark of Drone Fine-Grained Orien
 
 
 ## News 🎉
+**[February 3, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** is now available via **Early Access** in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**!
+- 📄 **Access the Paper**: [IEEE Xplore Early Access Page](https://doi.org/10.1109/TGRS.2026.3660958)
 **[January 31, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** has been accepted for publication in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**!
 
 ## Benchmark for DFGOVD
