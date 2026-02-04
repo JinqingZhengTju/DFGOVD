@@ -6,6 +6,8 @@
 
 </div>
 
+[![Paper-Status](https://img.shields.io/badge/Paper-TGRS_Early_Access-important)](https://doi.org/10.1109/TGRS.2026.3660958)
+
 ## News 🎉
 **[February 3, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** is now available via **Early Access** in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**: [https://doi.org/10.1109/TGRS.2026.3660958](https://doi.org/10.1109/TGRS.2026.3660958)
   
