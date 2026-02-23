@@ -9,9 +9,11 @@
 [![Paper-Status](https://img.shields.io/badge/Paper-TGRS_Early_Access-blue)](https://doi.org/10.1109/TGRS.2026.3660958)
 
 ## News 🎉
+**[February 20, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** has been officially published in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)** , vol. 64, pp. 1-17, 2026, doi: [10.1109/TGRS.2026.3660958](https://doi.org/10.1109/TGRS.2026.3660958).
+
 **[February 3, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** is now available via **Early Access** in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**: [https://doi.org/10.1109/TGRS.2026.3660958](https://doi.org/10.1109/TGRS.2026.3660958)
   
-**[January 31, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** has been accepted for publication in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**!
+**[January 30, 2026]** Our paper **“DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild”** has been accepted for publication in **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**!
 
 ## Introduction
 <div align=center>
@@ -58,15 +60,12 @@ If you use this work (including the DFGOVD dataset or codebase) in your research
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={DFGOVD: A New Dataset and Benchmark for Drone Fine-Grained Oriented Vehicle Detection in the Wild}, 
   year={2026},
-  volume={},
+  volume={64},
   number={},
-  pages={1-1},
-  keywords={Drone-based Vehicle Detection;Fine-Grained Object Recognition;Oriented Object Detection},
-  doi={10.1109/TGRS.2026.3660958}
-}
+  pages={1-17},
+  keywords={Drones;Labeling;Vehicle detection;Satellites;Annotations;Object detection;Benchmark testing;Monitoring;Satellite images;Artificial intelligence;Drone-based vehicle detection;fine-grained object recognition;oriented object detection (OOD)},
+  doi={10.1109/TGRS.2026.3660958}}
 ```
-
-**Note:** As the paper is currently in Early Access, the final volume, issue, and page numbers will be updated upon formal publication. The DOI [10.1109/TGRS.2026.3660958](https://doi.org/10.1109/TGRS.2026.3660958) is the permanent link to the paper.
 
 ## License
 This project uses **multiple licenses** for different components (code, sample data, full dataset). The terms are nuanced. **This section is a summary only.** For the complete and authoritative terms, see the **[LICENSE.md](./LICENSE.md)** file.
